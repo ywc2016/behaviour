@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <welcome-file-list>
+        <welcome-file>studentpage/login.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>proxool</servlet-name>
+        <servlet-class>org.logicalcobwebs.proxool.admin.servlet.AdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>proxool</servlet-name>
+        <url-pattern>/Admin/proxool/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>transform</servlet-name>
+        <servlet-class>ielab.util.transform</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>transform</servlet-name>
+        <url-pattern>/servlet/transform</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>bargainTransform</servlet-name>
+        <servlet-class>ielab.servlet.BargainTransform</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bargainTransform</servlet-name>
+        <url-pattern>/servlet/bargainTransform</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DisplayChart_R_Total</servlet-name>
+        <servlet-class>ielab.util.DisplayChart_R_Total</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayChart_R_Total</servlet-name>
+        <url-pattern>/servlet/DisplayChart_R_Total</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DisplayChart_R_NetIncome</servlet-name>
+        <servlet-class>ielab.util.DisplayChart_R_NetIncome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayChart_R_NetIncome</servlet-name>
+        <url-pattern>/servlet/DisplayChart_R_NetIncome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DisplayChart_R_Total_AllRetailers</servlet-name>
+        <servlet-class>ielab.util.DisplayChart_R_Total_AllRetailers</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayChart_R_Total_AllRetailers</servlet-name>
+        <url-pattern>/servlet/DisplayChart_R_Total_AllRetailers</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DisplayChart_R_NetIncome_AllRetailers</servlet-name>
+        <servlet-class>ielab.util.DisplayChart_R_NetIncome_AllRetailers</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayChart_R_NetIncome_AllRetailers</servlet-name>
+        <url-pattern>/servlet/DisplayChart_R_NetIncome_AllRetailers</url-pattern>
+    </servlet-mapping>
+
+
+    <filter>
+        <filter-name>SetWebApplicationCharacterEncoding</filter-name>
+        <filter-class>ielab.util.SetEncodeFilter</filter-class>
+        <init-param>
+            <param-name>defaultencoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>SetWebApplicationCharacterEncoding</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>CloseSessionFilter</filter-name>
+        <filter-class>ielab.util.CloseSessionFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CloseSessionFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- 设置回话有效时间15分钟 -->
+    <session-config>
+        <session-timeout>15</session-timeout>
+    </session-config>
+    <!-- 监听session销毁 -->
+    <listener>
+        <listener-class>ielab.listener.OnlineUserListener</listener-class>
+    </listener>
+</web-app>

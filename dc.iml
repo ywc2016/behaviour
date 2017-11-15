@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots />
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="eef19fd0-6839-41a4-8a15-1b2f7e402b6b" />
+          <unit-entry name="hibernate.cfg3.xml" value="eef19fd0-6839-41a4-8a15-1b2f7e402b6b" />
+          <unit-entry name="hibernate.cfg_c3p0.xml" value="c433be7c-d5a1-44e9-9062-b3d6d4a6bff4" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/out/artifacts/dc_war_exploded/WEB-INF/classes/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg3.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg_c3p0.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.41" level="application_server_libraries" />
+    <orderEntry type="library" name="mylib" level="project" />
+  </component>
+</module>

@@ -1,0 +1,58 @@
+<component name="libraryTable">
+  <library name="mylib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/antlr-2.7.6rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/asm-attrs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/cglib-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-math3-3.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/ehcache-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/hibernate3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jaas.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jaxen-1.1-beta-7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jcommon-1.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jdbc2_0-stdext.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jfreechart-1.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/json_simple.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.2-beta-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.38.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/proxool-0.9.0RC3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-codebehind-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-config-browser-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-jasperreports-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-jfreechart-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-jsf-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-pell-multipart-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-plexus-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-sitegraph-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-sitemesh-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-spring-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-struts1-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-tiles-plugin-2.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts-core-1.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/xerces-2.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/xml-apis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/poi-3.13-20150929.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/poi-examples-3.13-20150929.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/poi-excelant-3.13-20150929.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-3.13-20150929.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-schemas-3.13-20150929.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/poi-scratchpad-3.13-20150929.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/lombok-1.16.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

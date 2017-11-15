@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+
+		<!-- 以下为配置使用proxool，去掉后加上下面的配置即可取消proxool连接池 -->
+		<!-- <property name="hibernate.proxool.pool_alias">pool1</property> <property 
+			name="hibernate.proxool.xml">ProxoolConf.xml</property> <property name="hibernate.connection.provider_class"> 
+			org.hibernate.connection.ProxoolConnectionProvider </property> -->
+
+		<property name="show_sql">true</property>
+		<property name="dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+		<property name="connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>
+
+		<!-- 自动重连 -->
+		<property name="connection.autoReconnect">true</property>
+		<property name="connection.autoReconnectForPools">true</property>
+		<property name="connection.is-connection-validation-required">true</property>
+
+
+		<!--若使用proxool连接池，以下可以不用；取消proxool连接池配置后须加上此配置 -->
+		<property name="connection.username">root</property>
+		<property name="connection.url">
+			jdbc:mysql://localhost:3306/behaviour
+		</property>
+		<property name="connection.useUnicode">true</property>
+		<property name="connection.characterEncoding">UTF-8</property>
+		<property name="myeclipse.connection.profile">
+			MySQLDatabaseDriver
+		</property>
+		<property name="connection.password">root</property>
+		<!-- <property name="connection.password">1508211</property> -->
+		<property name="hibernate.format_sql">true</property>
+		<property name="hibernate.format_sql">true</property>
+		<!-- 使用getCurrentSession()方法，必须配置此属性 -->
+		<property name="hibernate.current_session_context_class">
+			thread
+		</property>
+
+		<mapping resource="ielab/hibernate/Admin.hbm.xml" />
+		<mapping resource="ielab/hibernate/DcData.hbm.xml" />
+		<mapping resource="ielab/hibernate/DcExperiments.hbm.xml" />
+		<mapping resource="ielab/hibernate/DcParameters.hbm.xml" />
+		<mapping resource="ielab/hibernate/BargainParameter.hbm.xml" />
+		<mapping resource="ielab/hibernate/BargainData.hbm.xml" />
+		<mapping resource="ielab/hibernate/BargainExperiments.hbm.xml" />
+		<mapping resource="ielab/hibernate/BargainMatch.hbm.xml" />
+		<mapping resource="ielab/hibernate/BargainParticipant.hbm.xml" />
+	</session-factory>
+
+</hibernate-configuration>
